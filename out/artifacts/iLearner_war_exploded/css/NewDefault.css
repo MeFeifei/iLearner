@@ -1,0 +1,390 @@
+/*============================默认样式：直接定义元素的样式=======================================*/
+body
+{
+    text-align: center;
+    font-weight:normal;
+    background:#ffffff;
+    margin: 0;
+    padding: 0;
+    color: #6a6a6a;
+    font-family: "微软雅黑","Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+    font-size:12px;
+}
+h1
+{
+    font-size:12px;
+    font-weight: normal;
+}
+h2
+{
+    font-size:12px;
+    display:inline;
+    margin:0;
+}
+h3
+{
+    font-size:12px;
+    display:inline;
+    font-weight:normal;
+    padding:0;
+    margin:0;
+    color:#444;
+}
+dl,dt,dd,ul,li,ol,p,form,img {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border: none;
+}
+textarea
+{
+    font-size:12px;
+}
+a,a:link,a:active
+{
+    color:#075DB3;
+    text-decoration: none;
+}
+a:hover
+{
+    color:#f90;
+}
+a img
+{
+    border:0;
+}
+
+/*========================================公共样式===============================================*/
+/*用于订阅图标*/
+#rss img{margin-bottom: 5px; border:0;}
+
+.btnBlueBg
+{
+    padding:5px 9px;font-weight: bold;
+    background-image: url(http://image.sojump.com/images/mysojump/questionnairemng/design/com_button.gif);
+    width: 56px;cursor: pointer;color: #ffffff!important;background-repeat: repeat-x;height: 26px; line-height:28px;
+}
+
+input.finish
+{
+    display:inline-block;height:26px; line-height:26px; border:0;cursor:pointer;background:#f17819;font-size:15px;color:#fff;
+    border-radius:5px; padding: 0 15px;
+    overflow:visible;
+}
+.divline
+{
+    color:#2a85bf;
+    font-size:14px;
+    font-weight:bold;
+    margin-bottom:6px; padding-bottom:4px; border-bottom:1px #adb2b4 dashed;  margin-top:20px;
+}
+.divclear{clear: both;height:0px; line-height:0px; font-size:1px;}
+.wls
+{
+    float:left; margin-left:6px; margin-top:38px; font-size: 12px; color: #333; font-weight: normal;
+}
+.hul li
+{
+    float:left;
+}
+.qset li{ float:left; margin-left:10px; margin-top:10px; }
+.beijiimg{width:100px; height:75px;cursor:hand;}
+/*水平线：高5像素，淡紫色*/
+.wf{color:#ffffff!important; padding:0;}
+.linehr
+{
+    color:#ccddff;/*#;*/
+    background:#ccddff;
+    height:5px;
+    padding:0;
+    margin-bottom:0;
+    margin-top:0;
+    border:0;
+}
+.linediv
+{
+    background:#ccddff;
+    height:5px;
+    line-height:0px;
+    padding:0;
+    margin-bottom:0;
+    margin:3px 0; width:100%;
+    font-size:0px;
+    clear:both;
+}
+/*水平线：高1像素，淡紫色*/
+.listhr
+{
+    height:1px;
+    border:0;
+    background:#ccddff;
+    color:#ccddff;
+}
+/*16像素，加粗，蓝绿。一般用于标题*/
+.bluefont-16px
+{
+    font-size: 16px;
+    font-weight: bold;
+    color: #00a6e6;
+}
+/*灰度666，默认字体，不加下划线；HOVER橙色加下划线*/
+a.link-666:link,a.link-666:visited
+{
+    color: #666666;
+    text-decoration: none;
+}
+a.link-666:hover
+{
+    color: #F90;
+}
+
+a.link-U666:link,a.link-U666:visited
+{
+    color: #666666;
+    text-decoration: underline;
+}
+a.link-U666:hover
+{
+    color: #F90;
+}
+
+
+/*灰度666，14像素，字体加粗，不加下划线；HOVER橙色加下划线*/
+a.link-b666,a.link-b666:visited
+{
+    color:#656565;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+a.link-b666:hover
+{
+    color: #F90;
+    text-decoration:underline;
+}
+
+/*灰度999，默认字体，不加下划线；HOVER橙色加下划线*/
+a.link-999:link,a.link-999:visited
+{
+    color: #999;
+    text-decoration: none;
+}
+a.link-999:hover
+{
+    color: #F90;
+    text-decoration:none ;
+}
+
+/*蓝绿色，默认字体，不加下划线；HOVER橙色加下划线*/
+a.link-00a6e6:link,a.link-00a6e6:visited,a.link-00a6e6:active
+{
+    color: #00a6e6;
+    text-decoration: none;
+
+}
+a.link-00a6e6:hover
+{
+    color: #F90;
+    text-decoration:none ;
+}
+/*亮浅蓝色，不带下划线*/
+a.link-06f:link,a.link-06f:visited,a.link-06f:active
+{
+    color: #05398c;
+    text-decoration: none;
+}
+a.link-06f:hover
+{
+    color: #ff6600;
+    text-decoration: none;
+}
+/*橙色，不带下划线*/
+a.link-f60:link,a.link-f60:visited,a.link-f60:active
+{
+    color: #ff6600;
+    text-decoration: none;
+}
+a.link-f60:hover
+{
+    color: #ff9900;
+    text-decoration: none;
+}
+/*浅蓝色，默认字体，加下划线；HOVER橙色加下划线;*/
+a.link-U00a6e6,a.link-U00a6e6:link,a.link-U00a6e6:visited
+{
+    color: #3D81EE;
+    font-size:12px;
+    text-decoration: underline;
+}
+a.link-U00a6e6:hover
+{
+    color: #F90;
+    font-size:12px;
+    text-decoration:underline ;
+}
+
+
+/*灰度333，默认字体，加下划线；HOVER橙色加下划线*/
+a.link-U333,a.link-U333:link,a.link-U333:visited
+{
+    color: #333333;
+    text-decoration: underline;
+}
+a.link-U333:hover
+{
+    color: #F90;
+}
+a.link-444,a.link-444:link,a.link-444:visited
+{
+    color: #444444;
+    text-decoration: none;
+}
+a.link-444:hover
+{
+    color: #F90;
+}
+a.link-red:link,a.link-red:active,a.link-red:visited
+{
+    color:red;
+    text-decoration: none;
+}
+a.link-red:hover
+{
+    text-decoration:underline;
+}
+/*灰度333，默认字体 ；HOVER橙色加下划线*/
+a.link-333,a.link-333:link,a.link-333:visited
+{
+    color: #333333;
+}
+a.link-333:hover
+{
+    color: #ff9900;
+}
+/*浅黄色，默认字体，加下划线；HOVER浅蓝色加下划线*/
+a.link-UF90:link,a.link-UF90:visited {
+    color: #ff6600;
+    text-decoration: underline;
+    FONT-FAMILY: sans-serif,'宋体';
+
+}
+a.link-UF90:hover {
+    color:#ef4d58;
+    text-decoration:underline ;
+
+
+}
+/*白色字体*/
+a.link-fff:link,a.link-fff:visited {
+    color: #ffffff;
+    text-decoration: underline;
+    FONT-FAMILY: sans-serif,'宋体';
+
+}
+a.link-fff:hover {
+    color: #ff9900;
+    text-decoration: underline;
+    FONT-FAMILY: sans-serif,'宋体'
+
+
+}
+/*浅灰色，*/
+a.link-beef:link,a.link-beef:visited
+{
+    color:#eef;
+}
+a.link-beef:hover
+{
+    font-weight:bold;
+}
+/*橙色链接*/
+a.link-UF30:link,a.link-UF30:visited {
+    color: #ff5500;
+    text-decoration: underline;
+}
+a.link-UF30:hover {
+    color: #ef4d58;
+    text-decoration:underline ;
+}
+/*浅蓝色字体*/
+.list_link a,.list_link a:link,.list_link a:visited
+{
+    COLOR: #3d81ee
+}
+
+.blueb{color:#3155b6! important; font-weight:bold;}
+
+input.operation {
+    background-image:url(http://image.sojump.com/images/wjx/JoinQuestionnaire/button_normal_bg.gif);
+    background-repeat:repeat-x;
+    border:1px solid #A7B6C1;
+    height:22px;
+    margin:0 2px;
+    padding:2px;
+    /*width:110px;padding-top:3px;*/
+}
+.chengshefont{color:#ff6600;}
+.divCom
+{
+    padding:10px 0;  text-align: left; line-height: 18px; color: #333333;
+}
+a.sumitbutton,a.sumitbutton:visited
+{
+    background:#f17819;
+    color:#ffffff !important;
+    display: inline-block;
+    height: 30px;
+    line-height:30px;
+    padding-right: 5px;
+    text-decoration: none;
+    vertical-align: middle;
+    padding: 0 10px 0 15px;
+    text-align: center;
+    font-size: 16px;
+    cursor:pointer;
+    border-radius:5px;
+}
+a.sumitbutton:hover
+{
+    background:#fda420;color:#fff !important;
+}
+A.BS_btn {
+    background:#398ABD;
+    border:0;
+    border-radius: 6px;
+    display:inline-block;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    text-decoration: none;
+    padding:0 15px;
+    color: #FFFFFF !important;
+    font-size: 16px;
+    text-align: center;
+}
+A.BS_btn:hover {
+    background:#317CB4;
+}
+input.submitbutton
+{
+    display:inline-block;height:30px; line-height:30px; border:0;cursor:pointer;background:#f17819;font-size:16px;color:#fff;
+    border-radius:5px; padding: 0 15px;
+    overflow:visible;
+}
+input.submitbutton_hover
+{
+    background:#fda420;
+}
+/*****************************填写问卷与设计问卷*************
+/*分页与分栏*/
+.div_title_page_question{
+    padding:2px 0;
+    width:98%; margin:22px auto; clear:both;
+    line-height:20px;
+}
+.div_title_cut_question{
+    padding:2px 0; width:97%;margin:10px auto;
+    line-height:20px;
+}
+
